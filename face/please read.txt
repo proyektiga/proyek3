@@ -1,0 +1,9 @@
+I use Python 3.6 and openCV 3.3.0
+"createLBPHFaceRecognizer()"  -  doesn't work -> use this "LBPHFaceRecognizer_create()"
+
+I found solution.
+I installed:     pip install opencv-contrib-python
+and changed:   recognizer = cv2.face.createLBPHFaceRecognizer()
+and one tip - when you will run capture.py
+you have to use only a digit in user ID (don't use letters). 
+Only 1,2,3.... and so on.
